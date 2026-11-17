@@ -695,7 +695,7 @@ if (rsvpForm) {
     if (note) note.textContent = 'Отправляем ваш ответ...';
 
     try {
-      const response = await fetch('https://wedding-telegram.maksim-levushkin1998.workers.dev/', {
+      const response = await fetch('https://wedding-telegram.maksim-levushkin1998.workers.dev', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
